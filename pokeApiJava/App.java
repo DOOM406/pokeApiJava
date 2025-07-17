@@ -9,7 +9,7 @@ public class App {
 		while(true) {
 			System.out.println("Ingresa el nombre del pokemon: ");
 			String nombre = sc.nextLine();
-			if(nombre.equals("")) {break;}
+			if(nombre.equals("")) {break;} // "" to break that while
 			Pokemon pokemon = Poke.buscarPokemon(nombre);
 			
 			if(pokemon!=null) {
